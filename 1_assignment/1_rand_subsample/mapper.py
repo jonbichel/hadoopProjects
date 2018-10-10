@@ -7,6 +7,7 @@ import random
 count = 1
 
 for line in sys.stdin:
-    if count++ == 10:
+    if count == 10:
         print line
         count = 1
+    count += 1
