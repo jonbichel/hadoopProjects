@@ -1,0 +1,1 @@
+#!/usr/bin/env bashhadoop fs -getmerge /user/jonathan.bichel/output $1

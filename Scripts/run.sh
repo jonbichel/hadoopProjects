@@ -1,0 +1,1 @@
+#!/usr/bin/env bashhadoop jar \/home/instructor/hadoop-streaming/hadoop-streaming-2.7.3.jar \-files $1,$2 \-mapper $1 -reducer $2 \-input $3 -output /user/jonathan.bichel/output
