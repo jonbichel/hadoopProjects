@@ -4,13 +4,13 @@
 import string
 import sys
 
+# used to keep track of previous word first iteration previous word is unknown
+prevWord = ""
+
 for line in sys.stdin:
     line = line.strip()
     line = line.lower()
     words = line.split()
-
-    # used to keep track of previous word first iteration previous word is unknown
-    prevWord = ""
 
     for word in words:
         for c in string.punctuation:
