@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d9f40e6a-d45a-42b5-864f-393b8238f9cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/2_ngrams/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_ngrams/mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_ngrams/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_ngrams/reducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_ngrams/run1-2.sh" beforeDir="false" afterPath="$PROJECT_DIR$/2_ngrams/run1-2.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,32 +72,32 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="13" />
-          <entry key="py" value="66" />
+          <entry key="py" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="79" />
+          <entry key="Python" value="87" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/2_ngrams/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="345">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+            <state relative-caret-position="315">
+              <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -123,8 +123,8 @@
         <option value="$PROJECT_DIR$/AS1part1/reducer.py" />
         <option value="$PROJECT_DIR$/AS1part2/mapper.py" />
         <option value="$PROJECT_DIR$/1_rand_subsample/mapper.py" />
-        <option value="$PROJECT_DIR$/2_ngrams/mapper.py" />
         <option value="$PROJECT_DIR$/2_ngrams/reducer.py" />
+        <option value="$PROJECT_DIR$/2_ngrams/mapper.py" />
       </list>
     </option>
   </component>
@@ -311,17 +311,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_ngrams/mapper.py">
+    <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="315">
+          <caret line="22" column="36" lean-forward="true" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
+    <entry file="file://$PROJECT_DIR$/2_ngrams/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+        <state relative-caret-position="345">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>

@@ -17,7 +17,7 @@ for line in sys.stdin:
             word = word.replace(c,"")
 
         #
-        print'%s %s\t%s' % (prevWord, word, 1)
+        print'%s,%s\t%s' % (prevWord, word, 1)
 
         # keep track of previous word
         prevWord = word
