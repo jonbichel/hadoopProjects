@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/1_rand_subsample/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -286,7 +286,7 @@
     <entry file="file://$PROJECT_DIR$/1_rand_subsample/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="e#34#47#0" expanded="true" />
           </folding>

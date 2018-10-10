@@ -4,10 +4,7 @@
 import string
 import sys
 import random
-count = 1
 
 for line in sys.stdin:
-    if count == 10:
+    if random.randint(1, 10) <= 1:
         print line.strip()
-        count = 1
-    count += 1
