@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f40e6a-d45a-42b5-864f-393b8238f9cd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_ngrams/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_ngrams/mapper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2_ngrams/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/2_ngrams/reducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -102,22 +100,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="34" />
+          <entry key="py" value="39" />
           <entry key="pytest_test2" value="1" />
-          <entry key="sh" value="7" />
+          <entry key="sh" value="8" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="34" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Python" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="74" />
-          <entry key="py" value="295" />
+          <entry key="py" value="296" />
           <entry key="pytest_test2" value="6" />
           <entry key="sh" value="2" />
         </counts>
@@ -125,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="352" />
+          <entry key="Python" value="353" />
         </counts>
       </usages-collector>
     </session>
@@ -133,10 +131,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_ngrams/mapper.py">
+        <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -145,10 +143,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/reducer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="e#35#48#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <element signature="e#35#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -186,6 +199,7 @@
         <option value="$PROJECT_DIR$/1_rand_subsample/run.sh" />
         <option value="$PROJECT_DIR$/2_ngrams/mapper.py" />
         <option value="$PROJECT_DIR$/2_ngrams/reducer.py" />
+        <option value="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" />
       </list>
     </option>
   </component>
@@ -196,8 +210,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="109" />
-    <option name="y" value="35" />
+    <option name="x" value="328" />
+    <option name="y" value="71" />
     <option name="width" value="1252" />
     <option name="height" value="819" />
   </component>
@@ -404,9 +418,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="35" width="1252" height="819" extended-state="0" />
+    <frame x="143" y="99" width="1252" height="819" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22644629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22644629" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -421,7 +436,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.40577716" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33562586" />
+      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.33562586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -532,32 +547,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/reducer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3_inverted_index/run1-3.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_rand_subsample/reducer.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/2_ngrams/sampleText.txt">
       <provider selected="true" editor-type-id="text-editor">
@@ -572,9 +567,6 @@
           <caret line="6" column="49" lean-forward="true" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_ngrams/run1-2.sh">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/3_inverted_index/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,6 +589,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2_ngrams/run1-2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_ngrams/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -607,10 +606,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1_rand_subsample/reducer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#34#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/reducer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <element signature="e#35#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
