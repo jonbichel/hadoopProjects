@@ -14,7 +14,7 @@ for line in sys.stdin:
 
     for word in words:
         for c in string.punctuation:
-            word = word.replace(c,"")
+            word = word.replace(c, "")
 
         #
         print'%s,%s\t%s' % (prevWord, word, 1)
@@ -23,4 +23,4 @@ for line in sys.stdin:
         prevWord = word
 
 # print last word
-print'%s\t%s\t%s' % (prevWord, "", 1)
+print'%s,%s\t%s' % (prevWord, "", 1)
