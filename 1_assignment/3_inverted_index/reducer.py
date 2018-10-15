@@ -22,4 +22,4 @@ for line in sys.stdin:
         prev_key=word
         fileNameSet.clear()
         fileNameSet.add(fileName)
-print '%s\t%s' %(prev_key, fileNameSet)
+print '%s\t%s' % (prev_key, fileNameSet)
