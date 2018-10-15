@@ -14,12 +14,12 @@ for line in sys.stdin:
         prev_key = word
         fileNameSet.add(fileName)
         continue
-    if prev_key==word:
+    if prev_key == word:
         fileNameSet.add(fileName)
         continue
     if prev_key!=word:
-        print '%s\t%s' %(prev_key,fileNameSet)
+        print '%s\t%s' %(prev_key, fileNameSet)
         prev_key=word
         fileNameSet.clear()
         fileNameSet.add(fileName)
-print '%s\t%s' %(prev_key,fileNameSet)
+print '%s\t%s' %(prev_key, fileNameSet)
