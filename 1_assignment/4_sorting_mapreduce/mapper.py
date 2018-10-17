@@ -15,6 +15,6 @@ for line in sys.stdin:
 
     for word in words:
         if word.length() <= 4:
-            print'%s.%s' % (word, "" )
+            print'%s.%s\t%s' % (word, "", 1)
         else:
-            print'%s.%s' % (word[0:4], word[4:])
+            print'%s.%s\t%s' % (word[0:4], word[4:], 1)
