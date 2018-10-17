@@ -6,18 +6,15 @@ import sys
 
 prev_key = None
 
-for line in sys.stdin:
-    line = line.rstrip()
-    word, count = line.split('\t')
+for word in sys.stdin:
+    word = line.rstrip()
     if prev_key == None:
         prev_key = word
-        tot_count = int(count)
         continue
     if prev_key == word:
-        tot_count = tot_count+int(count)
         continue
     if prev_key != word:
-        print '%s\t%s' % (prev_key, tot_count)
+        print '%s' % (prev_key)
         prev_key = word
-        tot_count = int(count)
-print '%s\t%s' % (prev_key, tot_count)
+
+print '%s' % (prev_key)

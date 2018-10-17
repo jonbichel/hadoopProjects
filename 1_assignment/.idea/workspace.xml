@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9f40e6a-d45a-42b5-864f-393b8238f9cd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_sorting_mapreduce/mapper.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_sorting_mapreduce/mapper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh" beforeDir="false" afterPath="$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,40 +93,40 @@
     <session id="729052563">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="39" />
           <entry key="pytest_test2" value="1" />
-          <entry key="sh" value="8" />
+          <entry key="sh" value="11" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="PLAIN_TEXT" value="13" />
           <entry key="Python" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="74" />
-          <entry key="py" value="296" />
+          <entry key="py" value="444" />
           <entry key="pytest_test2" value="6" />
-          <entry key="sh" value="2" />
+          <entry key="sh" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="25" />
-          <entry key="Python" value="353" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Python" value="501" />
         </counts>
       </usages-collector>
     </session>
@@ -133,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="285">
+              <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
               <folding>
                 <element signature="e#34#47#0" expanded="true" />
               </folding>
@@ -145,8 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/reducer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+            <state relative-caret-position="285">
+              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding>
                 <element signature="e#35#48#0" expanded="true" />
               </folding>
@@ -155,13 +158,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
+        <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="38" />
-              <folding>
-                <element signature="e#35#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -188,7 +188,6 @@
         <option value="$PROJECT_DIR$/AS1part2/mapper.py" />
         <option value="$PROJECT_DIR$/1_rand_subsample/mapper.py" />
         <option value="/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/sort.py" />
-        <option value="$PROJECT_DIR$/4_sorting_mapreduce/mapper.py" />
         <option value="$PROJECT_DIR$/pytest/pytest_unittests.py" />
         <option value="$PROJECT_DIR$/pytest/pytest_test2" />
         <option value="$PROJECT_DIR$/pytest/test_pytest3.py" />
@@ -199,6 +198,8 @@
         <option value="$PROJECT_DIR$/1_rand_subsample/run.sh" />
         <option value="$PROJECT_DIR$/2_ngrams/mapper.py" />
         <option value="$PROJECT_DIR$/2_ngrams/reducer.py" />
+        <option value="$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh" />
+        <option value="$PROJECT_DIR$/4_sorting_mapreduce/mapper.py" />
         <option value="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" />
       </list>
     </option>
@@ -210,8 +211,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="328" />
-    <option name="y" value="71" />
+    <option name="x" value="114" />
+    <option name="y" value="200" />
     <option name="width" value="1252" />
     <option name="height" value="819" />
   </component>
@@ -221,7 +222,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -262,6 +262,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -418,10 +419,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="99" width="1252" height="819" extended-state="0" />
+    <frame x="114" y="200" width="1252" height="819" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22644629" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22975206" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -515,13 +516,7 @@
     <entry file="file://$PROJECT_DIR$/pytest/pytest_unittests.py" />
     <entry file="file://$PROJECT_DIR$/pytest/pytest_test2" />
     <entry file="file://$PROJECT_DIR$/../template/mapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/pytest/test_pytest2.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -537,9 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../template/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -547,20 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3_inverted_index/run1-3.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2_ngrams/sampleText.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/2_ngrams/sampleText.txt" />
     <entry file="file://$PROJECT_DIR$/1_rand_subsample/run.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -589,20 +568,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2_ngrams/run1-2.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/2_ngrams/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="9" lean-forward="true" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
-          <folding>
-            <element signature="e#34#47#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/2_ngrams/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="75">
           <caret line="6" selection-start-line="6" selection-end-line="22" selection-end-column="38" />
           <folding>
             <element signature="e#35#48#0" expanded="true" />
@@ -619,10 +588,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2_ngrams/run1-2.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3_inverted_index/run1-3.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/mapper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="285">
+          <caret line="19" column="47" lean-forward="true" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
           <folding>
             <element signature="e#34#47#0" expanded="true" />
           </folding>
@@ -631,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/4_sorting_mapreduce/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        <state relative-caret-position="285">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding>
             <element signature="e#35#48#0" expanded="true" />
           </folding>

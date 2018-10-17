@@ -13,4 +13,8 @@ for line in sys.stdin:
         for c in string.punctuation:
             word = word.replace(c,"")
 
-        print'%s\t%s' % (word,1)
+    for word in words:
+        if word.length() <= 4:
+            print'%s.%s' % (word, "" )
+        else:
+            print'%s.%s' % (word[0:4], word[4:])
