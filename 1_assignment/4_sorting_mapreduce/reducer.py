@@ -15,7 +15,7 @@ for line in sys.stdin:
     if prev_key == word:
         continue
     if prev_key != word:
-        print '%s' % (prev_key)
+        print '%s' % (prev_key, 1)
         prev_key = word
 
 print '%s' % (prev_key, 1)

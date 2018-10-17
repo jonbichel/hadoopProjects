@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d9f40e6a-d45a-42b5-864f-393b8238f9cd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/4_sorting_mapreduce/reducer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh" beforeDir="false" afterPath="$PROJECT_DIR$/4_sorting_mapreduce/run1-4.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -116,7 +115,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="119" />
-          <entry key="py" value="463" />
+          <entry key="py" value="466" />
           <entry key="pytest_test2" value="6" />
           <entry key="sh" value="9" />
         </counts>
@@ -124,7 +123,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="565" />
+          <entry key="Python" value="568" />
         </counts>
       </usages-collector>
     </session>
