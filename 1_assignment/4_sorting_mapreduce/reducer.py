@@ -6,8 +6,9 @@ import sys
 
 prev_key = None
 
-for word in sys.stdin:
-    word = line.rstrip()
+for line in sys.stdin:
+    line = line.rstrip()
+    word, count = line.split('\t')
     if prev_key == None:
         prev_key = word
         continue
@@ -17,4 +18,4 @@ for word in sys.stdin:
         print '%s' % (prev_key)
         prev_key = word
 
-print '%s' % (prev_key)
+print '%s' % (prev_key, 1)
