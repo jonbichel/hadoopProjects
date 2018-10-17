@@ -14,7 +14,10 @@ for line in sys.stdin:
             word = word.replace(c,"")
 
     for word in words:
+        print'%s\t%s' % (word, 1)
+        """
         if len(word) <= 4:
-            print'%s.%s\t%s' % (word, "a", 1)
+            print'%s.%s\t%s' % (word, "", 1)
         else:
             print'%s.%s\t%s' % (word[0:4], word[4:], 1)
+        """
