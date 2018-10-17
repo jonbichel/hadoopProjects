@@ -15,6 +15,6 @@ for line in sys.stdin:
 
     for word in words:
         if len(word) <= 4:
-            print'%s.%s\t%s' % (word, "", 1)
+            print'%s.%s\t%s' % (word, "a", 1)
         else:
             print'%s.%s\t%s' % (word[0:4], word[4:], 1)

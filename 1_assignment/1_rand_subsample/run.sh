@@ -1,1 +1,0 @@
-#!/usr/bin/env bashhadoop jar \/home/instructor/hadoop-streaming/hadoop-streaming-2.7.3.jar \-files mapper.py, reducer.py \-mapper mapper.py -reducer.py \-input /user/dkrishna/wordcount/shakespeare.txt \-output /user/jonathan.bichel/output
