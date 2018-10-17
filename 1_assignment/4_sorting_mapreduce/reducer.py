@@ -9,6 +9,7 @@ prev_key = None
 for line in sys.stdin:
     line = line.rstrip()
     word, count = line.split('\t')
+
     if prev_key == None:
         prev_key = word
         continue
