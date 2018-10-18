@@ -5,7 +5,8 @@ import string
 import sys
 
 prev_key = None
-count = 0
+count = 0  # not used
+
 for line in sys.stdin:
     line = line.rstrip()
     word, count = line.split('\t')
@@ -16,7 +17,7 @@ for line in sys.stdin:
     if prev_key == word:
         continue
     if prev_key != word:
-        print prev_key
+        print prev_key.replace(".", "")
         prev_key = word
 
-print prev_key.replace(".","")
+print prev_key.replace(".", "")

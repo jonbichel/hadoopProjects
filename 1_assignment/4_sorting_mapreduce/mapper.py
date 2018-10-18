@@ -18,11 +18,3 @@ for line in sys.stdin:
                 print'%s.%s\t%s' % (word[0], "", 1)
             else:
                 print'%s.%s\t%s' % (word[0], word[1:], 1)
-
-
-        """
-        if len(word) <= 4:
-            print'%s.%s\t%s' % (word, "", 1)
-        else:
-            print'%s.%s\t%s' % (word[0:4], word[4:], 1)
-        """
