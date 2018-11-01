@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f698f523-2e74-44a4-832a-1d919dafa483" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1_transpose/testdata.text" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1_assignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1_assignment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_transpose/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/1_transpose/reducer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,15 +34,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="69" />
-          <entry key="py" value="70" />
-          <entry key="sh" value="1" />
+          <entry key="py" value="78" />
+          <entry key="sh" value="4" />
           <entry key="text" value="68" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="69" />
-          <entry key="Python" value="139" />
+          <entry key="PLAIN_TEXT" value="72" />
+          <entry key="Python" value="147" />
         </counts>
       </usages-collector>
     </session>
@@ -53,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_transpose/mapper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="225">
+              <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -68,18 +67,22 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1_transpose/run2-1.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1_transpose/reducer.py">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -93,6 +96,7 @@
         <option value="$PROJECT_DIR$/1_Transpose/mapper.py" />
         <option value="$PROJECT_DIR$/1_transpose/testdata.text" />
         <option value="$PROJECT_DIR$/1_transpose/run2-1.sh" />
+        <option value="$PROJECT_DIR$/1_transpose/reducer.py" />
       </list>
     </option>
   </component>
@@ -105,8 +109,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="411" />
     <option name="y" value="23" />
-    <option name="width" value="1003" />
-    <option name="height" value="674" />
+    <option name="width" value="1029" />
+    <option name="height" value="793" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -165,17 +169,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="311" y="143" width="1003" height="674" extended-state="0" />
+    <frame x="411" y="23" width="1029" height="793" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36316338" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35359675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3298969" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.27389443" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -198,13 +202,10 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1_transpose/reducer.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_transpose/mapper.py">
+    <entry file="file://$PROJECT_DIR$/1_transpose/run2-1.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -215,10 +216,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_transpose/run2-1.sh">
+    <entry file="file://$PROJECT_DIR$/1_transpose/mapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_transpose/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
