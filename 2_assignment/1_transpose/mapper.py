@@ -14,4 +14,4 @@ for line in sys.stdin:
             word=word.replace(c,"")
      """
 
-    print'%s,%s,%s' % (column,row, value)
+    print'%s,%s,%s' % (column,row,value)
