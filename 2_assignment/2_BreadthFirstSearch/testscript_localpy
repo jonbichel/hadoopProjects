@@ -1,0 +1,18 @@
+
+
+# map reduce iterations
+cat breadthFirst.txt | python mapper.py | sort -k1,1 | python reducer.py  | tee iter1.txt
+cat iter1.txt | python mapper.py | sort -k1,1 | python reducer.py  | tee iter2.txt
+cat iter2.txt | python mapper.py | sort -k1,1 | python reducer.py  | tee iter3.txt
+
+
+# produce mapper outputs
+python mapper.py < breadthFirst.txt | tee -a mapout1.txt
+python mapper.py < iter1.txt | tee -a mapout2.txt
+python mapper.py < iter2.txt | tee -a mapout3.txt
+
+
+
+
+
+
