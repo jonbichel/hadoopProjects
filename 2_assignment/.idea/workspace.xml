@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f698f523-2e74-44a4-832a-1d919dafa483" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3_NormalizedWordMatrix/reducer.py" beforeDir="false" afterPath="$PROJECT_DIR$/3_NormalizedWordMatrix/reducer.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +38,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="560" />
-          <entry key="py" value="3656" />
+          <entry key="py" value="3682" />
           <entry key="sh" value="106" />
           <entry key="text" value="68" />
           <entry key="txt" value="93" />
@@ -48,7 +47,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="267" />
-          <entry key="Python" value="4216" />
+          <entry key="Python" value="4242" />
         </counts>
       </usages-collector>
     </session>
@@ -100,7 +99,7 @@
         <entry file="file://$PROJECT_DIR$/3_NormalizedWordMatrix/reducer.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="298">
-              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+              <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="34" />
               <folding>
                 <element signature="e#35#48#0" expanded="true" />
               </folding>
@@ -384,7 +383,7 @@
     <entry file="file://$PROJECT_DIR$/3_NormalizedWordMatrix/reducer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
-          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+          <caret line="34" selection-start-line="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="e#35#48#0" expanded="true" />
           </folding>
