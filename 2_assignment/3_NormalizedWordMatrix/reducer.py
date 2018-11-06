@@ -40,4 +40,5 @@ for line in sys.stdin:
         prev_words = words
 
 # send out last line
-print '%s\t%s' % (prev_words, tot_count)
+#print '%s\t%s' % (prev_words, tot_count)
+print '%s\t%f' % (prev_words, float(tot_count)/float(tot_count_base))
