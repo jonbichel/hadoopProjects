@@ -1,0 +1,1 @@
+#!/usr/bin/env bashhadoop jar \/usr/hdp/current/hadoop-mapreduce-client/hadoop-streaming.jar \-files mapper.py,reducer.py \-mapper mapper.py -reducer reducer.py \-input /user/jonb/files/29795.txt \-output /user/jonb/output
