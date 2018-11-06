@@ -32,6 +32,8 @@ for line in sys.stdin:
             # print the total of the pair of words
             # print '%s\t%s' % (prev_words, tot_count)
             # print normalized value for each set of words
+            if tot_count_base == 0:
+                tot_count_base = 1
             print '%s\t%f' % (prev_words, float(tot_count)/float(tot_count_base))
 
         tot_count = int(count)
