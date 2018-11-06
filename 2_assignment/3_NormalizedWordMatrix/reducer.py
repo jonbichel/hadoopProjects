@@ -25,14 +25,14 @@ for line in sys.stdin:
         # if we were counting base word emit base count
         if prev_words.split(',')[1] == '$':
             # print the base word total
-            print '%s\t%s' % (prev_words, tot_count)
+            # print '%s\t%s' % (prev_words, tot_count)
             tot_count_base = tot_count
         # if we were counting a pair of words emit and reset the pair counter
         else:
             # print the total of the pair of words
-            print '%s\t%s' % (prev_words, tot_count)
+            # print '%s\t%s' % (prev_words, tot_count)
             # print normalized value for each set of words
-            # print '%s\t%f' % (prev_words, float(tot_count)/float(tot_count_base))
+            print '%s\t%f' % (prev_words, float(tot_count)/float(tot_count_base))
 
         tot_count = int(count)
         prev_words = words
